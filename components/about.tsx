@@ -26,11 +26,13 @@ export default function About() {
         <span className="font-medium">front-end development</span> skills to the
         next level and build a mobile app that I launched in the iOS and Android
         mobile stores.{" "}
-        <span className="italic">My favorite part of programming</span> is
-        leveraging technology to build solutions to real-world problems. I{" "}
-        <span className="underline">love</span> the feeling of creating
-        something from nothing and seeing users adopt it. I’m always on the
-        lookout for the latest new technologies too.
+        <p>
+          <span className="italic">My favorite part of programming</span> is
+          leveraging technology to build solutions to real-world problems. I{" "}
+          <span className="underline">love</span> the feeling of creating
+          something from nothing and seeing users adopt it. I’m always on the
+          lookout for the latest new technologies too.
+        </p>
       </p>
       <p className="mb-3">
         I am currently looking for a{" "}
