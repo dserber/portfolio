@@ -35,26 +35,26 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated college (university of missouri)",
+    location: "Columbia, MO",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated with a Bachelor's of Journalism degree with an emphasis in photojournalism",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2005",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Mobile Developer",
+    location: "Minneapolis, MN",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a mobile developer building a startup called Margin using low-code tools. I started a company called DSQUARED that built an app called Tag Groceries with Flutter and launched it in the iOS & Android app stores. My responsibilities were UI design, font-end code, app architecture, & contributions to database design.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2018 - 2024",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Web & Mobile Developer",
+    location: "Minneapolis, MN",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a web developer working as a freelancer & building a startup called Size Match. My stack for web includes React, Next.js, TypeScript, Tailwind & Prisma and for mobile Flutter & Firebase. I'm open to full-time opportunities, contract, or freelance work.",
     icon: React.createElement(FaReact),
     date: "2021 - present",
   },
