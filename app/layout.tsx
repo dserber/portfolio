@@ -11,8 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "David W. Serber | Personal Portfolio",
-  description:
-    "David is a front-end web & mobile developer with 8 years of experience",
+  description: "David is a web & mobile developer with 6 years of experience",
 };
 
 export default function RootLayout({
