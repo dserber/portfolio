@@ -39,7 +39,7 @@ export default function About() {
         <span className="font-medium">full-time position</span> or{" "}
         <span className="font-medium">freelance opportunity</span> as a software
         developer. My core stack for mobile is{" "}
-        <span className="font-medium">Flutter & Firebase (NOSQL)</span> and for
+        <span className="font-medium">Flutter & Firebase (NoSQL)</span> and for
         web{" "}
         <span className="font-medium">
           React, Next.js, Node.js, & Typescript.

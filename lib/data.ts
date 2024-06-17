@@ -64,7 +64,7 @@ export const projectsData = [
   {
     title: "Tag Groceries",
     description:
-      "I worked as a mobile developer on this more flexible grocery list app for 2 years. It has features such as filtering, photo uploads, notifications & list sharing. ",
+      "I worked as a mobile developer on this app that has filtering, photo uploads, in-app notifications, list sharing with permissions, and free vs premium pricing tiers. ",
     tags: ["Flutter", "Dart", "Firebase", "iOS", "Android"],
     imageUrl: taggroceriesImg,
   },
@@ -78,7 +78,7 @@ export const projectsData = [
   {
     title: "My Portfolio (this site)",
     description:
-      "A showcase of my experience with the latest web dev trends of React, Next.js SSR & server actions, Typescript, Tailwind CSS, & Framer Motion",
+      "This website showcases my experience with the latest web dev trends of React, Next.js SSR & server actions, Typescript, Tailwind CSS, & Framer Motion",
     tags: ["React", "Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
     imageUrl: portfolioImg,
   },
