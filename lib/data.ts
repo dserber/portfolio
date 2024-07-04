@@ -43,20 +43,28 @@ export const experiencesData = [
     date: "2005",
   },
   {
+    title: "Non-Technical Founder",
+    location: "Minneapolis, MN",
+    description:
+      "I was a non-technical founder building a startup called Margin using low-code tools. We launched an MVP using the Bubble.io platform.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2019 - 2020",
+  },
+  {
     title: "Mobile Developer",
     location: "Minneapolis, MN",
     description:
-      "I worked as a mobile developer building a startup called Margin using low-code tools. I started a company called DSQUARED that built an app called Tag Groceries with Flutter and launched it in the iOS & Android app stores. My responsibilities were UI design, font-end code, app architecture, & contributions to database design.",
+      "I taught myself how to code and started a company called DSQUARED that built a mobile app called Tag Groceries using Flutter. The app is published in the iOS & Google Play app stores. My responsibilities included UI design, fontend coding, app architecture, and contributions to database design.",
     icon: React.createElement(CgWorkAlt),
-    date: "2018 - 2024",
+    date: "2018 - Present",
   },
   {
     title: "Web & Mobile Developer",
     location: "Minneapolis, MN",
     description:
-      "I'm now a web developer working as a freelancer & building a startup called Size Match. My stack for web includes React, Next.js, TypeScript, Tailwind & Prisma and for mobile Flutter & Firebase. I'm open to full-time opportunities, contract, or freelance work.",
+      "Lately, I'm working as a web & mobile developer freelancer as well as building a startup called Size Match. My tech stack is React, Next.js, TypeScript, Tailwind, and Prisma for web and Flutter & Firebase for mobile. I'm open to full-time job opportunities, contract, or freelance work.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2021 - Present",
   },
 ] as const;
 
@@ -64,21 +72,21 @@ export const projectsData = [
   {
     title: "Tag Groceries",
     description:
-      "I worked as a mobile developer on this app that has filtering, photo uploads, in-app notifications, list sharing with permissions, and free vs premium pricing tiers. ",
+      "I worked as a mobile developer on this published app that has photo uploads, in-app notifications, list sharing with permissions, and premium vs free subscription tiers. ",
     tags: ["Flutter", "Dart", "Firebase", "iOS", "Android"],
     imageUrl: taggroceriesImg,
   },
   {
     title: "Size Match",
     description:
-      "I worked as a mobile developer. I built an algorithm that predicts clothing fit based on 3-4 key measurements and built all UI.",
+      "I worked as a mobile and web developer. I built an algorithm that predicts clothing fit based on 3-4 key body measurements and built all UI.",
     tags: ["Flutter Web", "Dart", "Firebase"],
     imageUrl: sizematchImg,
   },
   {
-    title: "My Portfolio (this site)",
+    title: "davidwserber.com",
     description:
-      "This website showcases my experience with the latest web dev trends of React, Next.js SSR & server actions, Typescript, Tailwind CSS, & Framer Motion",
+      "This website you're on showcases my experience with the latest web dev trends of React, Next.js SSR & server actions, Typescript, Tailwind CSS, & Framer Motion",
     tags: ["React", "Next.js", "Typescript", "Tailwind CSS", "Framer Motion"],
     imageUrl: portfolioImg,
   },
@@ -94,12 +102,9 @@ export const skillsData = [
   "Flutter",
   "Dart",
   "Firebase",
-  "NOSQL",
+  "NoSQL",
   "Tailwind",
-  "Node.js",
   "Git",
   "Prisma",
-  "Redux",
-  "PostgreSQL",
   "Framer Motion",
 ] as const;
