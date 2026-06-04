@@ -4,6 +4,7 @@ import { getErrorMessage, validateString } from "@/lib/utils";
 import { Resend } from "resend";
 import ContactFormEmail from "@/email/contact-form-email";
 import React from "react";
+import { render } from "@react-email/render";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
@@ -25,15 +26,19 @@ export const sendEmail = async (formData: FormData) => {
 
   let data;
   try {
+    const htmlContent = await render(
+      React.createElement(ContactFormEmail, {
+        message: message as string,
+        senderEmail: senderEmail as string,
+      })
+    );
+
     data = await resend.emails.send({
       from: "Contact Form <onboarding@resend.dev>",
       to: "dserber@gmail.com",
       subject: "Message from contact form",
-      reply_to: senderEmail as string,
-      react: React.createElement(ContactFormEmail, {
-        message: message as string,
-        senderEmail: senderEmail as string,
-      }),
+      replyTo: senderEmail as string,
+      html: htmlContent,
     });
   } catch (error: unknown) {
     return {

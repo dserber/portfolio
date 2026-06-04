@@ -27,13 +27,13 @@ export default function About() {
         of building software products too. I decided to teach myself to code by
         building a mobile app that I published to the iOS and Google Play app
         stores.{" "}
-        <p>
-          <span className="italic">My favorite part of programming</span> is
-          leveraging technology to build solutions to real-world problems. I{" "}
-          <span className="underline">love</span> the feeling of creating
-          something from nothing and seeing users adopt it to improve their
-          lives. I’m always on the lookout for the latest new technologies too.
-        </p>
+      </p>
+      <p className="mb-3">
+        <span className="italic">My favorite part of programming</span> is
+        leveraging technology to build solutions to real-world problems. I{" "}
+        <span className="underline">love</span> the feeling of creating
+        something from nothing and seeing users adopt it to improve their
+        lives. I’m always on the lookout for the latest new technologies too.
       </p>
       <p className="mb-3">
         I am currently looking for a{" "}
