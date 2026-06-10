@@ -9,6 +9,15 @@ import { render } from "@react-email/render";
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormData) => {
+  const honeypot = formData.get("contact_website");
+
+  // Silently reject bot/spam submissions that fill out the honeypot
+  if (honeypot) {
+    return {
+      data: { id: "spam-prevented" },
+    };
+  }
+
   const senderEmail = formData.get("senderEmail");
   const message = formData.get("message");
 
